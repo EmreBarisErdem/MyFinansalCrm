@@ -88,6 +88,7 @@
 			this.button8.ForeColor = System.Drawing.Color.White;
 			this.button8.Name = "button8";
 			this.button8.UseVisualStyleBackColor = false;
+			this.button8.Click += new System.EventHandler(this.button8_Click);
 			// 
 			// button7
 			// 
@@ -104,6 +105,7 @@
 			this.button5.ForeColor = System.Drawing.Color.White;
 			this.button5.Name = "button5";
 			this.button5.UseVisualStyleBackColor = false;
+			this.button5.Click += new System.EventHandler(this.button5_Click);
 			// 
 			// button4
 			// 
@@ -137,6 +139,7 @@
 			this.button1.ForeColor = System.Drawing.Color.White;
 			this.button1.Name = "button1";
 			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// btn
 			// 
@@ -148,7 +151,7 @@
 			// 
 			// panel2
 			// 
-			this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+			this.panel2.BackColor = System.Drawing.Color.RoyalBlue;
 			this.panel2.Controls.Add(this.label1);
 			resources.ApplyResources(this.panel2, "panel2");
 			this.panel2.Name = "panel2";

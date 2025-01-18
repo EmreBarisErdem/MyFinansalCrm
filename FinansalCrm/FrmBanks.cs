@@ -75,5 +75,24 @@ namespace FinansalCrm
 			frm.Show();
 			this.Hide();
 		}
+
+		private void button8_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+
+		private void button5_Click(object sender, EventArgs e)
+		{
+			FrmDashboard frm = new FrmDashboard();
+
+			frm.ShowDialog();
+
+			this.Hide();
+		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			this.Show();
+		}
 	}
 }

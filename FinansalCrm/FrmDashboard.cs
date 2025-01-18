@@ -99,5 +99,17 @@ namespace FinansalCrm
 				lblBillTitle.Text = internetBill.ToString() + " \u20BA";
 			}
 		}
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			FrmBanks frm = new FrmBanks();
+			frm.Show();
+			this.Close();
+		}
+
+		private void button8_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 	}
 }

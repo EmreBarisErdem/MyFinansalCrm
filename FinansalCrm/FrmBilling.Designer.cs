@@ -39,20 +39,20 @@
 			this.btnBanksForms = new System.Windows.Forms.Button();
 			this.btn = new System.Windows.Forms.Button();
 			this.panel2 = new System.Windows.Forms.Panel();
-			this.panel3 = new System.Windows.Forms.Panel();
-			this.label1 = new System.Windows.Forms.Label();
-			this.txtBillId = new System.Windows.Forms.TextBox();
-			this.txtBillTitle = new System.Windows.Forms.TextBox();
-			this.label2 = new System.Windows.Forms.Label();
-			this.txtBillAmount = new System.Windows.Forms.TextBox();
-			this.label3 = new System.Windows.Forms.Label();
+			this.btnUpdateBill = new System.Windows.Forms.Button();
+			this.btnRemoveBill = new System.Windows.Forms.Button();
+			this.btnCreateBill = new System.Windows.Forms.Button();
+			this.btnBillList = new System.Windows.Forms.Button();
 			this.txtBillPeriod = new System.Windows.Forms.TextBox();
 			this.label4 = new System.Windows.Forms.Label();
-			this.btnBillList = new System.Windows.Forms.Button();
+			this.txtBillAmount = new System.Windows.Forms.TextBox();
+			this.label3 = new System.Windows.Forms.Label();
+			this.txtBillTitle = new System.Windows.Forms.TextBox();
+			this.label2 = new System.Windows.Forms.Label();
+			this.txtBillId = new System.Windows.Forms.TextBox();
+			this.label1 = new System.Windows.Forms.Label();
+			this.panel3 = new System.Windows.Forms.Panel();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
-			this.btnCreateBill = new System.Windows.Forms.Button();
-			this.btnRemoveBill = new System.Windows.Forms.Button();
-			this.btnUpdateBill = new System.Windows.Forms.Button();
 			this.panel1.SuspendLayout();
 			this.panel2.SuspendLayout();
 			this.panel3.SuspendLayout();
@@ -80,6 +80,7 @@
 			this.button8.ForeColor = System.Drawing.Color.White;
 			this.button8.Name = "button8";
 			this.button8.UseVisualStyleBackColor = false;
+			this.button8.Click += new System.EventHandler(this.button8_Click);
 			// 
 			// button7
 			// 
@@ -96,6 +97,7 @@
 			this.button5.ForeColor = System.Drawing.Color.White;
 			this.button5.Name = "button5";
 			this.button5.UseVisualStyleBackColor = false;
+			this.button5.Click += new System.EventHandler(this.button5_Click);
 			// 
 			// button4
 			// 
@@ -157,52 +159,41 @@
 			this.panel2.Controls.Add(this.label1);
 			this.panel2.Name = "panel2";
 			// 
-			// panel3
+			// btnUpdateBill
 			// 
-			this.panel3.BackColor = System.Drawing.Color.LightSteelBlue;
-			resources.ApplyResources(this.panel3, "panel3");
-			this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-			this.panel3.Controls.Add(this.dataGridView1);
-			this.panel3.Name = "panel3";
+			this.btnUpdateBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+			resources.ApplyResources(this.btnUpdateBill, "btnUpdateBill");
+			this.btnUpdateBill.ForeColor = System.Drawing.Color.Gold;
+			this.btnUpdateBill.Name = "btnUpdateBill";
+			this.btnUpdateBill.UseVisualStyleBackColor = false;
+			this.btnUpdateBill.Click += new System.EventHandler(this.btnUpdateBill_Click);
 			// 
-			// label1
+			// btnRemoveBill
 			// 
-			resources.ApplyResources(this.label1, "label1");
-			this.label1.Name = "label1";
+			this.btnRemoveBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+			resources.ApplyResources(this.btnRemoveBill, "btnRemoveBill");
+			this.btnRemoveBill.ForeColor = System.Drawing.Color.Gold;
+			this.btnRemoveBill.Name = "btnRemoveBill";
+			this.btnRemoveBill.UseVisualStyleBackColor = false;
+			this.btnRemoveBill.Click += new System.EventHandler(this.btnRemoveBill_Click);
 			// 
-			// txtBillId
+			// btnCreateBill
 			// 
-			this.txtBillId.BackColor = System.Drawing.SystemColors.Info;
-			this.txtBillId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			resources.ApplyResources(this.txtBillId, "txtBillId");
-			this.txtBillId.ForeColor = System.Drawing.SystemColors.MenuText;
-			this.txtBillId.Name = "txtBillId";
+			this.btnCreateBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+			resources.ApplyResources(this.btnCreateBill, "btnCreateBill");
+			this.btnCreateBill.ForeColor = System.Drawing.Color.Gold;
+			this.btnCreateBill.Name = "btnCreateBill";
+			this.btnCreateBill.UseVisualStyleBackColor = false;
+			this.btnCreateBill.Click += new System.EventHandler(this.btnCreateBill_Click);
 			// 
-			// txtBillTitle
+			// btnBillList
 			// 
-			this.txtBillTitle.BackColor = System.Drawing.SystemColors.Info;
-			this.txtBillTitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			resources.ApplyResources(this.txtBillTitle, "txtBillTitle");
-			this.txtBillTitle.ForeColor = System.Drawing.SystemColors.MenuText;
-			this.txtBillTitle.Name = "txtBillTitle";
-			// 
-			// label2
-			// 
-			resources.ApplyResources(this.label2, "label2");
-			this.label2.Name = "label2";
-			// 
-			// txtBillAmount
-			// 
-			this.txtBillAmount.BackColor = System.Drawing.SystemColors.Info;
-			this.txtBillAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			resources.ApplyResources(this.txtBillAmount, "txtBillAmount");
-			this.txtBillAmount.ForeColor = System.Drawing.SystemColors.MenuText;
-			this.txtBillAmount.Name = "txtBillAmount";
-			// 
-			// label3
-			// 
-			resources.ApplyResources(this.label3, "label3");
-			this.label3.Name = "label3";
+			this.btnBillList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+			resources.ApplyResources(this.btnBillList, "btnBillList");
+			this.btnBillList.ForeColor = System.Drawing.Color.Gold;
+			this.btnBillList.Name = "btnBillList";
+			this.btnBillList.UseVisualStyleBackColor = false;
+			this.btnBillList.Click += new System.EventHandler(this.btnBillList_Click);
 			// 
 			// txtBillPeriod
 			// 
@@ -217,14 +208,52 @@
 			resources.ApplyResources(this.label4, "label4");
 			this.label4.Name = "label4";
 			// 
-			// btnBillList
+			// txtBillAmount
 			// 
-			this.btnBillList.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-			resources.ApplyResources(this.btnBillList, "btnBillList");
-			this.btnBillList.ForeColor = System.Drawing.Color.Gold;
-			this.btnBillList.Name = "btnBillList";
-			this.btnBillList.UseVisualStyleBackColor = false;
-			this.btnBillList.Click += new System.EventHandler(this.btnBillList_Click);
+			this.txtBillAmount.BackColor = System.Drawing.SystemColors.Info;
+			this.txtBillAmount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			resources.ApplyResources(this.txtBillAmount, "txtBillAmount");
+			this.txtBillAmount.ForeColor = System.Drawing.SystemColors.MenuText;
+			this.txtBillAmount.Name = "txtBillAmount";
+			// 
+			// label3
+			// 
+			resources.ApplyResources(this.label3, "label3");
+			this.label3.Name = "label3";
+			// 
+			// txtBillTitle
+			// 
+			this.txtBillTitle.BackColor = System.Drawing.SystemColors.Info;
+			this.txtBillTitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			resources.ApplyResources(this.txtBillTitle, "txtBillTitle");
+			this.txtBillTitle.ForeColor = System.Drawing.SystemColors.MenuText;
+			this.txtBillTitle.Name = "txtBillTitle";
+			// 
+			// label2
+			// 
+			resources.ApplyResources(this.label2, "label2");
+			this.label2.Name = "label2";
+			// 
+			// txtBillId
+			// 
+			this.txtBillId.BackColor = System.Drawing.SystemColors.Info;
+			this.txtBillId.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+			resources.ApplyResources(this.txtBillId, "txtBillId");
+			this.txtBillId.ForeColor = System.Drawing.SystemColors.MenuText;
+			this.txtBillId.Name = "txtBillId";
+			// 
+			// label1
+			// 
+			resources.ApplyResources(this.label1, "label1");
+			this.label1.Name = "label1";
+			// 
+			// panel3
+			// 
+			this.panel3.BackColor = System.Drawing.Color.LightSteelBlue;
+			resources.ApplyResources(this.panel3, "panel3");
+			this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+			this.panel3.Controls.Add(this.dataGridView1);
+			this.panel3.Name = "panel3";
 			// 
 			// dataGridView1
 			// 
@@ -233,33 +262,6 @@
 			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			resources.ApplyResources(this.dataGridView1, "dataGridView1");
 			this.dataGridView1.Name = "dataGridView1";
-			// 
-			// btnCreateBill
-			// 
-			this.btnCreateBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-			resources.ApplyResources(this.btnCreateBill, "btnCreateBill");
-			this.btnCreateBill.ForeColor = System.Drawing.Color.Gold;
-			this.btnCreateBill.Name = "btnCreateBill";
-			this.btnCreateBill.UseVisualStyleBackColor = false;
-			this.btnCreateBill.Click += new System.EventHandler(this.btnCreateBill_Click);
-			// 
-			// btnRemoveBill
-			// 
-			this.btnRemoveBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-			resources.ApplyResources(this.btnRemoveBill, "btnRemoveBill");
-			this.btnRemoveBill.ForeColor = System.Drawing.Color.Gold;
-			this.btnRemoveBill.Name = "btnRemoveBill";
-			this.btnRemoveBill.UseVisualStyleBackColor = false;
-			this.btnRemoveBill.Click += new System.EventHandler(this.btnRemoveBill_Click);
-			// 
-			// btnUpdateBill
-			// 
-			this.btnUpdateBill.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-			resources.ApplyResources(this.btnUpdateBill, "btnUpdateBill");
-			this.btnUpdateBill.ForeColor = System.Drawing.Color.Gold;
-			this.btnUpdateBill.Name = "btnUpdateBill";
-			this.btnUpdateBill.UseVisualStyleBackColor = false;
-			this.btnUpdateBill.Click += new System.EventHandler(this.btnUpdateBill_Click);
 			// 
 			// FrmBilling
 			// 

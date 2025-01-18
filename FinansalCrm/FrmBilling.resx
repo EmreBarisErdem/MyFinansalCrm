@@ -126,13 +126,10 @@
     <value>Calibri, 14pt, style=Bold</value>
   </data>
   <data name="button8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 628</value>
-  </data>
-  <data name="button8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>24, 966</value>
   </data>
   <data name="button8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 49</value>
+    <value>255, 75</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button8.TabIndex" type="System.Int32, mscorlib">
@@ -160,13 +157,10 @@
     <value>Calibri, 14pt, style=Bold</value>
   </data>
   <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 541</value>
-  </data>
-  <data name="button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>24, 832</value>
   </data>
   <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 49</value>
+    <value>255, 75</value>
   </data>
   <data name="button7.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -193,13 +187,10 @@
     <value>Calibri, 14pt, style=Bold</value>
   </data>
   <data name="button5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 454</value>
-  </data>
-  <data name="button5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>24, 698</value>
   </data>
   <data name="button5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 49</value>
+    <value>255, 75</value>
   </data>
   <data name="button5.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -226,13 +217,10 @@
     <value>Calibri, 14pt, style=Bold</value>
   </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 367</value>
-  </data>
-  <data name="button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>24, 565</value>
   </data>
   <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 49</value>
+    <value>255, 75</value>
   </data>
   <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -259,13 +247,10 @@
     <value>Calibri, 14pt, style=Bold</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 280</value>
-  </data>
-  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>24, 431</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 49</value>
+    <value>255, 75</value>
   </data>
   <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -292,13 +277,10 @@
     <value>Calibri, 14pt, style=Bold</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 193</value>
-  </data>
-  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>24, 297</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 49</value>
+    <value>255, 75</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -325,13 +307,10 @@
     <value>Calibri, 14pt, style=Bold</value>
   </data>
   <data name="btnBanksForms.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 106</value>
-  </data>
-  <data name="btnBanksForms.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>22, 163</value>
   </data>
   <data name="btnBanksForms.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 49</value>
+    <value>255, 75</value>
   </data>
   <data name="btnBanksForms.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -358,13 +337,10 @@
     <value>Calibri, 14pt, style=Bold</value>
   </data>
   <data name="btn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 19</value>
-  </data>
-  <data name="btn.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>22, 29</value>
   </data>
   <data name="btn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>170, 49</value>
+    <value>255, 75</value>
   </data>
   <data name="btn.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -385,13 +361,10 @@
     <value>7</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, -2</value>
-  </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>0, -3</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 697</value>
+    <value>302, 1072</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -418,10 +391,13 @@
     <value>Calibri, 14.25pt, style=Bold</value>
   </data>
   <data name="btnUpdateBill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>917, 280</value>
+    <value>1376, 431</value>
+  </data>
+  <data name="btnUpdateBill.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="btnUpdateBill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 49</value>
+    <value>340, 75</value>
   </data>
   <data name="btnUpdateBill.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -448,10 +424,13 @@
     <value>Calibri, 14.25pt, style=Bold</value>
   </data>
   <data name="btnRemoveBill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>684, 280</value>
+    <value>1026, 431</value>
+  </data>
+  <data name="btnRemoveBill.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="btnRemoveBill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 49</value>
+    <value>340, 75</value>
   </data>
   <data name="btnRemoveBill.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -478,10 +457,13 @@
     <value>Calibri, 14.25pt, style=Bold</value>
   </data>
   <data name="btnCreateBill.Location" type="System.Drawing.Point, System.Drawing">
-    <value>451, 280</value>
+    <value>676, 431</value>
+  </data>
+  <data name="btnCreateBill.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="btnCreateBill.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 49</value>
+    <value>340, 75</value>
   </data>
   <data name="btnCreateBill.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -508,10 +490,13 @@
     <value>Calibri, 14.25pt, style=Bold</value>
   </data>
   <data name="btnBillList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 280</value>
+    <value>327, 431</value>
+  </data>
+  <data name="btnBillList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="btnBillList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>227, 49</value>
+    <value>340, 75</value>
   </data>
   <data name="btnBillList.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -535,13 +520,16 @@
     <value>Calibri, 12pt</value>
   </data>
   <data name="txtBillPeriod.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 235</value>
+    <value>180, 362</value>
+  </data>
+  <data name="txtBillPeriod.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="txtBillPeriod.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="txtBillPeriod.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1222, 36</value>
+    <value>1832, 54</value>
   </data>
   <data name="txtBillPeriod.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -565,10 +553,13 @@
     <value>Calibri, 14.25pt</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 244</value>
+    <value>66, 375</value>
+  </data>
+  <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>106, 36</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -592,13 +583,16 @@
     <value>Calibri, 12pt</value>
   </data>
   <data name="txtBillAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 163</value>
+    <value>180, 251</value>
+  </data>
+  <data name="txtBillAmount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="txtBillAmount.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="txtBillAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1222, 36</value>
+    <value>1832, 54</value>
   </data>
   <data name="txtBillAmount.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -622,10 +616,13 @@
     <value>Calibri, 14.25pt</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 172</value>
+    <value>66, 265</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>109, 36</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -649,13 +646,16 @@
     <value>Calibri, 12pt</value>
   </data>
   <data name="txtBillTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 91</value>
+    <value>180, 140</value>
+  </data>
+  <data name="txtBillTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="txtBillTitle.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="txtBillTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1222, 36</value>
+    <value>1832, 54</value>
   </data>
   <data name="txtBillTitle.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -679,10 +679,13 @@
     <value>Calibri, 14.25pt</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 100</value>
+    <value>78, 154</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 23</value>
+    <value>98, 36</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -706,13 +709,16 @@
     <value>Calibri, 12pt</value>
   </data>
   <data name="txtBillId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 19</value>
+    <value>180, 29</value>
+  </data>
+  <data name="txtBillId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="txtBillId.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="txtBillId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1222, 36</value>
+    <value>1832, 54</value>
   </data>
   <data name="txtBillId.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -736,10 +742,13 @@
     <value>Calibri, 14.25pt</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 28</value>
+    <value>28, 43</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
+    <value>144, 36</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -760,10 +769,13 @@
     <value>11</value>
   </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 7</value>
+    <value>309, 11</value>
+  </data>
+  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1366, 344</value>
+    <value>2047, 527</value>
   </data>
   <data name="panel2.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -789,8 +801,14 @@
   <data name="dataGridView1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="dataGridView1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="dataGridView1.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
   <data name="dataGridView1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1362, 327</value>
+    <value>2043, 503</value>
   </data>
   <data name="dataGridView1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -808,10 +826,13 @@
     <value>0</value>
   </data>
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 357</value>
+    <value>309, 549</value>
+  </data>
+  <data name="panel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1366, 331</value>
+    <value>2047, 507</value>
   </data>
   <data name="panel3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -832,13 +853,16 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>9, 20</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1581, 765</value>
+    <value>2372, 1177</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

@@ -29,14 +29,13 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.Title title5 = new System.Windows.Forms.DataVisualization.Charting.Title();
-			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-			System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-			System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-			System.Windows.Forms.DataVisualization.Charting.Title title6 = new System.Windows.Forms.DataVisualization.Charting.Title();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
+			System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+			System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+			System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+			System.Windows.Forms.DataVisualization.Charting.Title title4 = new System.Windows.Forms.DataVisualization.Charting.Title();
 			this.lblLastBankProcessAmount = new System.Windows.Forms.Label();
 			this.BankProcessAmount = new System.Windows.Forms.Label();
 			this.panel5 = new System.Windows.Forms.Panel();
@@ -215,6 +214,7 @@
 			this.button8.TabIndex = 8;
 			this.button8.Text = "Çıkış Yap";
 			this.button8.UseVisualStyleBackColor = false;
+			this.button8.Click += new System.EventHandler(this.button8_Click);
 			// 
 			// button7
 			// 
@@ -299,6 +299,7 @@
 			this.button1.TabIndex = 1;
 			this.button1.Text = "Bankalar";
 			this.button1.UseVisualStyleBackColor = false;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
 			// 
 			// btn
 			// 
@@ -365,26 +366,23 @@
 			this.chart1.BorderSkin.BorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
 			this.chart1.BorderSkin.BorderWidth = 2;
 			this.chart1.BorderSkin.SkinStyle = System.Windows.Forms.DataVisualization.Charting.BorderSkinStyle.FrameTitle3;
-			chartArea5.Name = "ChartArea1";
-			this.chart1.ChartAreas.Add(chartArea5);
-			legend5.Name = "Legend1";
-			this.chart1.Legends.Add(legend5);
+			chartArea3.Name = "ChartArea1";
+			this.chart1.ChartAreas.Add(chartArea3);
 			this.chart1.Location = new System.Drawing.Point(328, 465);
 			this.chart1.Name = "chart1";
 			this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
-			series5.ChartArea = "ChartArea1";
-			series5.Legend = "Legend1";
-			series5.Name = "Series1";
-			this.chart1.Series.Add(series5);
+			series3.ChartArea = "ChartArea1";
+			series3.Name = "Series1";
+			this.chart1.Series.Add(series3);
 			this.chart1.Size = new System.Drawing.Size(1025, 619);
 			this.chart1.TabIndex = 15;
 			this.chart1.Text = "chart1";
-			title5.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			title5.Name = "Title1";
-			title5.ShadowColor = System.Drawing.Color.Black;
-			title5.Text = "Bankalar / Banka Hesaplarındaki Para Miktarı";
-			title5.TextStyle = System.Windows.Forms.DataVisualization.Charting.TextStyle.Embed;
-			this.chart1.Titles.Add(title5);
+			title3.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			title3.Name = "Title1";
+			title3.ShadowColor = System.Drawing.Color.Black;
+			title3.Text = "Bankalar / Banka Hesaplarındaki Para Miktarı";
+			title3.TextStyle = System.Windows.Forms.DataVisualization.Charting.TextStyle.Embed;
+			this.chart1.Titles.Add(title3);
 			// 
 			// chart2
 			// 
@@ -394,26 +392,26 @@
 			this.chart2.BorderSkin.BorderDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Solid;
 			this.chart2.BorderSkin.BorderWidth = 2;
 			this.chart2.BorderSkin.SkinStyle = System.Windows.Forms.DataVisualization.Charting.BorderSkinStyle.FrameTitle3;
-			chartArea6.Name = "ChartArea1";
-			this.chart2.ChartAreas.Add(chartArea6);
-			legend6.Name = "Legend1";
-			this.chart2.Legends.Add(legend6);
+			chartArea4.Name = "ChartArea1";
+			this.chart2.ChartAreas.Add(chartArea4);
+			legend2.Name = "Legend1";
+			this.chart2.Legends.Add(legend2);
 			this.chart2.Location = new System.Drawing.Point(1360, 465);
 			this.chart2.Name = "chart2";
-			series6.ChartArea = "ChartArea1";
-			series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-			series6.Legend = "Legend1";
-			series6.Name = "Faturalar";
-			this.chart2.Series.Add(series6);
+			series4.ChartArea = "ChartArea1";
+			series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+			series4.Legend = "Legend1";
+			series4.Name = "Faturalar";
+			this.chart2.Series.Add(series4);
 			this.chart2.Size = new System.Drawing.Size(1025, 619);
 			this.chart2.TabIndex = 16;
-			this.chart2.Text = "chart2";
-			title6.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-			title6.Name = "Title1";
-			title6.ShadowColor = System.Drawing.Color.Black;
-			title6.Text = "Ödenen / Ödenmesi Gereken Fatura Tutarları";
-			title6.TextStyle = System.Windows.Forms.DataVisualization.Charting.TextStyle.Embed;
-			this.chart2.Titles.Add(title6);
+			this.chart2.Text = "w";
+			title4.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			title4.Name = "Title1";
+			title4.ShadowColor = System.Drawing.Color.Black;
+			title4.Text = "Ödenen / Ödenmesi Gereken Fatura Tutarları";
+			title4.TextStyle = System.Windows.Forms.DataVisualization.Charting.TextStyle.Embed;
+			this.chart2.Titles.Add(title4);
 			// 
 			// FrmDashboard
 			// 
@@ -422,7 +420,7 @@
 			this.AutoSize = true;
 			this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-			this.ClientSize = new System.Drawing.Size(2104, 1096);
+			this.ClientSize = new System.Drawing.Size(2448, 1096);
 			this.Controls.Add(this.chart2);
 			this.Controls.Add(this.chart1);
 			this.Controls.Add(this.panel6);
